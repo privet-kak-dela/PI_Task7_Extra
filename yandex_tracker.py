@@ -13,6 +13,6 @@ issues = client.issues.get_all()
 last_issue = str(issues[0])
 try:
     client.issues.create(queue='TEAMCITYBUILDFA', summary=f"Issue № {last_issue[len(last_issue) - 2]}",
-                         type={'name': 'Bug'},assignee='amrahova.a-meow-lia'))
+                         type={'name': 'Bug'},assignee='amrahova.a-meow-lia')
 except Exception as ex:
     print("exception:\n", ex)
