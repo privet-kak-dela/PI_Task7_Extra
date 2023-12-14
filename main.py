@@ -5,6 +5,6 @@ def print_func() -> str:
 
 def main():
     print(print_func())
-
+oskegopergspkg
 if __name__ == "__main__":
     main()
