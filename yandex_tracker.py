@@ -30,7 +30,7 @@ except Exception as ex:
      "type": "bug",
  }
 
- //print(issues)
+ print(issues)
  print(queue)
 
  try:
